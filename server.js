@@ -10,4 +10,4 @@ app.set('views', __dirname + '/views');
 app.use('/', indexRouter);
 app.use('/accounts', accountsRouter);
 
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT);
